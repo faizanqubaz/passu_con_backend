@@ -16,7 +16,7 @@ app.use(express.json());
 app.use(json());
 app.use(cors());
 app.use('/uploads', express.static('uploads'));
-app.use('/api/v2', mainRouter);
+app.use('/api/v2', mainRouter); 
 
 const PORT = process.env.PORT || 4000;
 const MONGODB_URI =
