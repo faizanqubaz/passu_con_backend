@@ -3,8 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
-     "build": "babel src --out-dir dist",
-    "start": "npm run build && node dist/app.js"
+    "start": "node dist/app.js"
   },
   "author": "faizanadilpassu",
   "license": "ISC",
