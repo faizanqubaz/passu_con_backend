@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
 import mongoose from 'mongoose';
 import { Admin } from './admin.model'; // Your Admin model
-import bcrypt from 'bcrypt'; // To hash and compare passwords
+import bcrypt from 'bcryptjs'; // To hash and compare passwords
 import jwt from 'jsonwebtoken'; // For generating JWT token (optional)
 
 const AuthenticateAdmin = async (req, res) => {
